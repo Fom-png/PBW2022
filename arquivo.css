@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+    font-size: 12px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+form{
+    font-family: 'Times New Roman';
+    margin: 0 auto;
+    width: 350px;
+    padding: 1em;
+    background-color: rgb(243, 200, 61);    
+}
+input{
+    width: 100px;
+}
+label{
+    width: 150px;
+    display: inline-block;
+
+}
+p{
+    text-align: center;
+}
+/* 21/09/2022 */
