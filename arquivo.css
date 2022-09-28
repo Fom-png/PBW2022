@@ -12,9 +12,18 @@ form{
     width: 350px;
     padding: 1em;
     background-color: rgb(243, 200, 61);    
+    text-align: center;
 }
 input{
     width: 100px;
+}
+button{
+    background: #4690FF;
+    height: 30px;
+    color: cornsilk;
+    box-shadow: 8px 8px 8px black;
+    border: none;
+    border-radius: 15px;
 }
 label{
     width: 150px;
@@ -24,4 +33,5 @@ label{
 p{
     text-align: center;
 }
-/* 21/09/2022 */
+
+/* 28/09/2022 */
