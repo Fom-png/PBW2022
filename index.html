@@ -6,15 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="José Afonso">
     <meta name="description" content="Uma página com algumas informações sobre mim, José Afonso Araujo dos Santos">
+    <link rel="stylesheet" href="menu.css">
     <title>Sobre</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="#quem">Quem sou eu?</a></li>
+            <li><a href="#hobbies">Meus Hobbies</a></li>
+            <li><a href="#projetos">Meus Projetos</a></li>
+            <li><a href="#estudos">Estudos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <article>
     <header>
         <h1>José Afonso Araujo dos Santos</h1>
         <img src="Imagens/ft1.jpg" alt="Foto de José Afonso">
     </header>
     <section>
-        <h2>Quem sou eu?</h2>
+        <h2 id="quem">Quem sou eu?</h2>
         <p>Meu nome é <b>José Afonso Araujo dos Santos</b>. Sou de Cristalândia-TO e no momento estou fazendo o curso de Sistemas
             para Internet no Instintuto Federal do Tocantins, Campus Palmas.</p>
         <p>
@@ -24,11 +35,11 @@
         <p>Além de gostar <b>muito</b> de estudar, eu curto uns joguinhos online e do SPFC para passar raiva e me divertir na minoria das vezes.</p>
     </section>
     <section>    
-        <h2>Meus Hobbies:</h2>
+        <h2 id="hobbies">Meus Hobbies:</h2>
         <p>Preparei <a href="hobbies.html">essa página</a> para falar sobre isso.</p>
     </section>
     <section>
-        <h2>Meus projetos:</h2>
+        <h2 id="projetos">Meus projetos:</h2>
         Meu projeto prioritário no momento é encontrar um emprego ou estágio, já que simplesmente não consigo pensar em quando vou terminar o curso. 
         <p> eu pretendo terminar o curso e procurar saber de forma mais especifica qual das opções do ramo eu
         pretendo seguir.
@@ -41,7 +52,7 @@
         </blockquote>
     </section>
     <section>
-        <h2>O que estou estudando atualmente:</h2>
+        <h2 id="estudos">O que estou estudando atualmente:</h2>
         <table border="1">
             <caption>Disciplinas:</caption>
                 <thead>
@@ -71,11 +82,12 @@
         </table>
     </section>
     <section>
-        <h2>Contato:</h2>
-        <ul>
+        <h2 id="contato">Contato:</h2>
+        <ol>
             <p><a href="contato.html">Entre com contato comigo</a></p>
-        </ul>
+        </ol>
     </section>
+</article>
     <!-- 24/08/2022 -->
     </body>
 </html>
